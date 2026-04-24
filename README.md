@@ -3,6 +3,8 @@ This code provides a flexible genetic algorithm to search extreme examples in th
 - points with large rational preperiodic tails
 - points with large rational periodic cycles
 - maps with math rational preperiodic points
+
+
 There are a significant number of parameters provided to control the functioning of the algorithm as well as two examples of parameter settings in the comments at the top of the file. They are defined as follows
 - 'random_seed' - a positive integer to control the random generation of data for reproducibility
 - 'map_type' - either  'polynomial' or 'rational'
