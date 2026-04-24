@@ -38,9 +38,11 @@ The first example in the code file runs in 1-2s on standard a laptop. The second
 
 Note that the examples in the publication (https://arxiv.org/abs/2601.11482) can be quickly verified in SageMath. For example
 
+```
 load("AD_genetic_search_algorithm.py")
 O=[1, -1,3,-3]
 #F=orbit_to_map_rational([0]+O,4)
 F=orbit_to_map_polynomial(O,3)
 F.rational_preperiodic_graph()
 F.canonical_height(F.domain()(0),error_bound=0.00001)
+```
